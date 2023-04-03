@@ -1,3 +1,3 @@
 const attack = require("./attack");
 
-console.log(attack('nashor', 100));
+console.log(attack("nashor", 100));
