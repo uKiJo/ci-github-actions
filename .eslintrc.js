@@ -6,7 +6,13 @@ module.exports = {
     jest: true,
   },
   extends: "eslint:recommended",
-  overrides: [],
+  overrides: [
+    {
+      parserOptions: {
+        sourceType: "module",
+      },
+    },
+  ],
   parserOptions: {
     ecmaVersion: "latest",
   },
