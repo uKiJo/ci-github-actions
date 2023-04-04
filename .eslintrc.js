@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     commonjs: true,
     es2021: true,
+    jest: true,
   },
   extends: "eslint:recommended",
   overrides: [],
@@ -11,6 +12,6 @@ module.exports = {
   },
   rules: {
     semi: ["error", "always"],
-    quotes: ["error", "double"],
+    quotes: ["error", "double", "single"],
   },
 };
